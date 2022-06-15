@@ -9,23 +9,37 @@ nav,
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: bold;
   }
   
   nav {
+    padding: 20px;
     justify-content: space-between;
-    width: 100%;
+    width: 80%;
     height: 50px;
-    font-size: 1.25em;
-    background-color: black;
-    color: white;
+    font-size: 1.5em;
+    background-color: white;
+    color: rgb(53, 48, 122);
+  }
+
+  .login {
+    border: 1px solid rgb(53, 48, 122);
+    color: rgb(53, 48, 122);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em; 
+    border-radius: 10%;
   }
   
   .logo {
-    width: 15%;
+    width: 20%;
     height: 100%;
     background-color: white;
     color: rgb(53, 48, 122);
+    font-size: 1.5em; 
   }
   
   .center-content {
@@ -117,12 +131,17 @@ main div{
   color: rgb(9, 198, 255);
 }
 
-.center-content h6{
+.footer{
 
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: beige;
+}
+
+.footer h6{
+  padding: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 1.5em;
+  font-size: 1.5em; 
   color: rgb(53, 48, 122); 
-  background-clip: border-box;
-  background-color: beige;
 }
